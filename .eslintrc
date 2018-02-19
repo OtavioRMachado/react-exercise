@@ -1,0 +1,27 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "import",
+    "fp",
+    "chai-friendly"
+  ],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".test.js",".jsx"] }],
+    "no-warning-comments": "warn",
+    "fp/no-mutating-methods": ["error", {
+      "allowedObjects": ['_']
+    }],
+    "fp/no-mutating-assign": "error",
+    "fp/no-delete": "error",
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
+  }
+}

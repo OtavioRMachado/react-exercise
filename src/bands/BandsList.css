@@ -1,0 +1,35 @@
+.bands-list {
+    background-color: white;
+    margin: 5px;
+    margin: auto;
+}
+
+.band {
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+}
+
+.band-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 1.5em;
+}
+
+.band-name {
+    font-size: 1.5em;
+}
+
+.band-plays {
+    color: #A2A2A2;
+}
+.band-image {
+    flex-basis: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
